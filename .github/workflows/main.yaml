@@ -19,5 +19,5 @@ jobs:
           node-version: '16.20.X' 
 
       - name: Install dependencies
-        run: npm Install
+        run: npm install
     
