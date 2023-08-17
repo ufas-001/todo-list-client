@@ -1,4 +1,4 @@
-name: Dockerize and Push MERN Stack App
+name: Dockerize and Push Todo Client App
 
 on:
   push:
