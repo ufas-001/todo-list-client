@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build Docker Image 
-        run: docker build -t thehufaaz/todo-client-side:latest .
+        run: docker build -t thehufaaz/todo-client-side:latest
 
       - name: Log in to Docker Hub
         run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
